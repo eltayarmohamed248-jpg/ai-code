@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "e2e": "^0.24.0",
+    "@e2e-dev/web": "^0.16.1",
+    "@e2e-dev/core": "^0.24.0",
+    "ai": "^7.0.0",
+    "zod": "^4.1.8",
+    "@ai-sdk/openai-compatible": "^3.0.0",
+    "@ai-sdk/openai": "^4.0.0",
+    "@ai-sdk/anthropic": "^4.0.0",
+    "@ai-sdk/google": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test:e2e": "e2e run"
+  }
+}
